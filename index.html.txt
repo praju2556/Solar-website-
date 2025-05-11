@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>सोलर सोल्युशन्स</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .section {
+            padding: 40px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #004aad;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003080;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>सोलर सोल्युशन्स</h1>
+        <p>नवीकरणीय ऊर्जेसाठी तुमचा विश्वासू भागीदार</p>
+    </header>
+    <nav>
+        <a href="#home">होम</a>
+        <a href="#about">अ‍ॅबाउट अस</a>
+        <a href="#contact">संपर्क</a>
+    </nav>
+    <div id="home" class="section">
+        <h2>स्वागत आहे!</h2>
+        <p>आम्ही सोलर पॅनल्स आणि नवीकरणीय ऊर्जा सोल्युशन्स प्रदान करतो. पर्यावरणाला वाचवण्यासाठी आजच सोलर निवडा!</p>
+    </div>
+    <div id="about" class="section">
+        <h2>आमच्याबद्दल</h2>
+        <p>आम्ही उच्च दर्जाचे सोलर पॅनल्स आणि इंस्टॉलेशन सेवा प्रदान करतो. आमचा अनुभव आणि तांत्रिक कौशल्य तुम्हाला ऊर्जा बचत करण्यात मदत करेल.</p>
+    </div>
+    <div id="contact" class="section">
+        <h2>संपर्क साधा</h2>
+        <p>सोलर सोल्युशन्सबद्दल अधिक जाणून घेण्यासाठी खालील फॉर्म भरा.</p>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="तुमचे नाव" required>
+            <input type="email" name="email" placeholder="तुमचा ईमेल" required>
+            <input type="tel" name="phone" placeholder="तुमचा फोन नंबर" required>
+            <textarea name="message" placeholder="तुमचा संदेश" rows="5" required></textarea>
+            <button type="submit">संदेश पाठवा</button>
+        </form>
+    </div>
+</body>
+</html>
